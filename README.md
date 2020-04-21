@@ -2,6 +2,7 @@
 A simple credential abstraction mechanism for minor implementation needs.
 
 **This compiles with .NET 4.0.X and above.**
+
 Almost all details on operation and implementation can be found in CryptUtil.cs and CryptDriver.cs.
 
 # Quick Start
