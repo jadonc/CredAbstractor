@@ -5,12 +5,12 @@ Almost all details on operation and implementation can be found in CryptUtil.cs 
 
 # Quick Start(?)
 CryptUtil has three (3) public-facing methods for the client to use:
-    > your_instance.runCryptUtil()
-        - retrieve plaintext credentials from encrypted file
-    > your_instance.setCredAndKeyFiles(cred_fpath, key_fpath)
-        - set the file containing credentials, and which holds the key
-    > your_instance.setConfig(config_fpath)
-        - credfile and keyfile will be created based on this
+* your_instance.runCryptUtil():
+    - retrieve plaintext credentials from encrypted file
+* your_instance.setCredAndKeyFiles(cred_fpath, key_fpath):
+    - set the file containing credentials, and which holds the key
+* your_instance.setConfig(config_fpath):
+    - credfile and keyfile will be created based on this
 
 To use this in your C# project, include the CryptUtil namespace:
 `using CryptUtilNS;`
