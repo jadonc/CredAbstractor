@@ -3,7 +3,7 @@ A simple credential abstraction mechanism for minor implementation needs.
 
 Almost all details on operation and implementation can be found in CryptUtil.cs and CryptDriver.cs.
 
-# Quick Start(?)
+# Quick Start
 CryptUtil has three (3) public-facing methods for the client to use:
 * your_instance.runCryptUtil():
     - retrieve plaintext credentials from encrypted file
