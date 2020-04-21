@@ -21,3 +21,7 @@ To execute (assuming you are indirectly passing credentials to another source):
 ^ This will calculate and pass credentials (after decryption) to the client function.
 
 See CryptUtil.cs and CryptDriver.cs for more details.
+
+# DISCLAIMER
+PLEASE do not use this for _actual_ secure abstraction. This is very basic, and in no way secure enough for most applications!
+This is also a work-in-progress and will be updated, hardened and improved over time.
