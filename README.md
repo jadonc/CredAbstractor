@@ -13,10 +13,10 @@ CryptUtil has three (3) public-facing methods for the client to use:
     - credfile and keyfile will be created based on this
 
 To use this in your C# project, include the CryptUtil namespace:
-`using CryptUtilNS;`
+- `using CryptUtilNS;`
 
 To execute (assuming you are indirectly passing credentials to another source):
-`ClientFunctionThatExecutes( your_instance.runCryptUtil() )`
+- `ClientFunctionThatExecutes( your_instance.runCryptUtil() )`
 
 ^ This will calculate and pass credentials (after decryption) to the client function.
 
